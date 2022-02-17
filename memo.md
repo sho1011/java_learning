@@ -1,5 +1,6 @@
 # String.format()
 
+<blockquote>
 String str = "samples";
 System.out.println(String.format("値は「%10s」です。", str));
     // 結果：値は「   samples」です。
@@ -7,6 +8,7 @@ System.out.println(String.format("値は「%-10s」です。", str));
     // 結果：値は「samples   」です。
 System.out.println(String.format("値は「%.2s」です。", str));
     // 結果：値は「sa」です。
+</blockquote>
     
     
 double num = 1.23456;
